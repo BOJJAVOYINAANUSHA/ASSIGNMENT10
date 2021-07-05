@@ -65,12 +65,8 @@ y1=[C[1],11/2,A[1],1/2]
 plt.fill(x1,y1,color="gray",alpha=0.7)
 
 #Labelling points
-plt.plot(8/3,0,'o',color='r')
-plt.text(2.8,0.2,'A(8/3,0)')
 plt.plot(2,1/2,'o',color='r')
-plt.text(2,1,'B(2,1/2)')
-plt.plot(0,11/2,'o',color='r')
-plt.text(0.2,6,'C(0,11/2)')
+plt.text(2,1,'A(2,1/2)')
 
 plt.xlabel('x')
 plt.ylabel('y')
